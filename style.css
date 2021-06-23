@@ -9,8 +9,11 @@ body{
     color:rgba(0,0,0,0.87);
 }
 main, .footer-cont{
-    width:70%;
+    width:57%;
     margin:auto;
+}
+main a{
+    color:blue;
 }
 .container{
    padding-top: 150px;
@@ -23,6 +26,7 @@ p{
 }
 a{
     color: #5f6368;
+    /* color: Red; */
     text-decoration: none;
 }
 /* NAVBAR */
@@ -93,4 +97,11 @@ footer{
     color: white;
     margin-left: 8px;
     text-align: center;
+}
+
+.active{
+    border-bottom: 3px solid blue;
+    color:blue;
+    font-weight: 300;
+    padding-bottom: 9px;
 }
