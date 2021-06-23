@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Product Sans',Arial,sans-serif;
 }
+body{
+    color:rgba(0,0,0,0.87);
+}
 main, .footer-cont{
     width:70%;
     margin:auto;
@@ -28,10 +31,12 @@ nav{
     position: fixed;
     background-color: white;
     width:100%;
+   /*  margin-left: 20px; */
 }
 .nav-logo{
     display:flex;
-    margin-top: 20px;
+    margin: 20px 0 0 20px;
+
 }
 .nav-logo span a{
     font-size: 20px;
@@ -39,7 +44,7 @@ nav{
    
 }
 .navbar{
-    margin: 10px 0;
+    margin: 10px 0 10px 20px;
 }
 .navbar a{
     padding-right: 15px;
@@ -70,4 +75,22 @@ footer{
 }
 .form img{
     width:14px;
+}
+.w90{
+    width: 90%;
+}
+.w10{
+    display: flex;
+    width:10%;
+    color:grey;
+    font-size: 30px;
+}
+.iniziale{
+    width:33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: rgb(73, 163, 73);
+    color: white;
+    margin-left: 8px;
+    text-align: center;
 }

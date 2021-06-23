@@ -145,14 +145,16 @@ $faqs = [
 
 <nav>
     <div class="nav-logo">
-        <div>
+        <div class="w90">
             <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
             <span><a href="https://policies.google.com/">Privacy & Termini</a></span>
         </div>
-        <div style="float:right">
-            <i class="fas fa-circle"></i>
+        <div class="w10">
+            <i class="fas fa-th"></i>
+            <div class="iniziale">
+                <span>d</span>
+            </div>
         </div>
-        
     </div>
     <div class="navbar">
         <a href="">Introduzione</a>
